@@ -1,6 +1,6 @@
 .nav-design{
     background-color: #fff;
-    border-bottom:1px solid rgb(206, 206, 206);
+    border-bottom:1px solid rgb(233, 233, 233);
 }
 .nav-main {
     display: flex;
@@ -63,6 +63,7 @@
 
 .nav-langage{
     display: flex;
+    cursor: pointer;
 }
 .nav-langage div{
     margin: 0 5px;
@@ -100,3 +101,30 @@
 .nav-sell-add-icon span{
     font-size: 26px;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color: rgb(97, 97, 97);
+  }
+  
+  .nav-langage:hover .dropdown-content {
+    display: block;
+  }

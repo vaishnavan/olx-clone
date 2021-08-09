@@ -37,6 +37,11 @@ function Navbar() {
                     <div>
                         <span className="nav-lang-icon"><i className="fa fa-angle-down"></i></span>
                     </div>
+                    <div class="dropdown-content">
+                        <a href="#">English</a>
+                        <a href="#">Hindi</a>
+                        <a href="#">Malayalam</a>
+                    </div>
                 </div>
                 <div className="nav-login">
                     <a href="#">Login</a>

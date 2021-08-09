@@ -1,0 +1,37 @@
+.category-dropdown{
+    display: flex;
+}
+.category-list-data ul li{
+    list-style-type: none;
+    float: left;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+.category-item{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+
+   
+}
+
+.category-main{
+     border-bottom:1px solid rgb(216, 216, 216) ;
+     box-shadow: 0px 0.5px 1.5px rgba(0,0,0,0.5);
+}
+
+.category-angle {
+    margin: 0 5px;
+}
+.category-angle span i{
+    font-size: 22px;
+}
+.category-head span{
+    font-weight: 500;
+}
+
+.category-list-data ul li:hover{
+    color: rgb(108, 206, 233);
+    cursor: pointer;
+}
