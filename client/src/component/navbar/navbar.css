@@ -1,0 +1,102 @@
+.nav-design{
+    background-color: #fff;
+    border-bottom:1px solid rgb(206, 206, 206);
+}
+.nav-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+}
+.nav-search-input input{
+    width: 600px;
+    padding: 7px 0;
+    border: 2px solid black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.nav-search-input input{
+    padding:7px 15px;
+    outline: none !important;
+}
+.nav-search-btn button{
+    padding: 6px 10px;
+}
+.nav-select span input{
+    padding: 7px 0;
+}
+.nav-select input{
+    border: none !important;
+    outline: none !important;
+    margin: 0 8px;
+    width: 180px;
+}
+
+.nav-select{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+.nav-search-btn button{
+    background-color: black;
+}
+
+.nav-search-btn button i{
+    color: white;
+    font-size: 23px;
+}
+.nav-search-btn button{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid black;
+}
+
+.nav-select .nav-select-angle i{
+    font-size: 26px;
+}
+
+.nav-langage{
+    display: flex;
+}
+.nav-langage div{
+    margin: 0 5px;
+}
+.nav-langage .nav-lang-icon i{
+    font-size: 26px;
+}
+.nav-login a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+}
+.nav-login a:hover{
+    border-bottom: none;
+}
+.nav-sell{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-sell .nav-sell-link a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 3px;
+    color: black;
+}
+
+.nav-sell{
+    border: 4px solid rgb(51, 136, 126);
+    padding: 0px 18px;
+    border-radius: 20px;
+}
+.nav-sell-add-icon span{
+    font-size: 26px;
+}
